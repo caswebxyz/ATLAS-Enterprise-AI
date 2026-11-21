@@ -1,4 +1,21 @@
 {
   "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
-  "python.terminal.activateEnvironment": true
+  "python.terminal.activateEnvironment": true,
+  "sqltools.connections": [
+    {
+      "pgOptions": {
+        "ssl": {
+          "rejectUnauthorized": true
+        }
+      },
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "dpg-dc0pvru1egvs738n0gr0-a.ohio-postgres.render.com",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "atlas-postgress-srini",
+      "database": "atlas_ai_h0ce",
+      "username": "atlas_user"
+    }
+  ]
 }
